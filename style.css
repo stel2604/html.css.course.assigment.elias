@@ -342,12 +342,13 @@ section {
     width: 60rem;
 
 }
+
 .home2 .content {
     text-align: right;
     width: 60rem;
     padding-top: 10rem;
-    
- 
+
+
 }
 
 .home2 .content h3 {
@@ -396,36 +397,36 @@ section {
     box-shadow: 25px 23px 23px rgba(70, 62, 150, 100);
 }
 
-.advertising .box-container .box img{
+.advertising .box-container .box img {
     margin: 1rem 0;
     height: 20rem;
 }
 
-.advertising .box-container .box h3{
+.advertising .box-container .box h3 {
     font-size: 2.5rem;
     line-height: 1.8;
     color: var(--black);
 }
 
-.advertising .box-container .box p{
+.advertising .box-container .box p {
     font-size: 1rem;
     line-height: 1.8;
     color: var(--black);
 }
 
-.advertising .box-container .box .price{
+.advertising .box-container .box .price {
     font-size: 2rem;
     color: var(--lighting-color);
     padding: .5rem 0;
     font-weight: bold;
 }
 
-.advertising .box-container .box .price:hover{
+.advertising .box-container .box .price:hover {
     color: #5900ff;
     font-size: 2.5rem;
 }
 
-.advertising .box-container .box .stars i{
+.advertising .box-container .box .stars i {
     font-size: 1.5rem;
     color: var(--orange);
     outline-color: black;
@@ -488,18 +489,18 @@ section {
     box-shadow: 25px 23px 23px rgba(70, 62, 150, 100);
 }
 
-.action .box-container .box img{
+.action .box-container .box img {
     margin: 1rem 0;
     height: 20rem;
 }
 
-.action .box-container .box h3{
+.action .box-container .box h3 {
     font-size: 2.5rem;
     line-height: 1.8;
     color: var(--black);
 }
 
-.action .box-container .box p{
+.action .box-container .box p {
     font-size: 1rem;
     line-height: 1.8;
     color: var(--black);
@@ -551,47 +552,46 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
-    margin: ;
 }
 
-.footer .box-container .box h3{
+.footer .box-container .box h3 {
     font-size: 2.5rem;
     color: var(--black);
     padding: 1rem 0;
 }
 
-.footer .box-container .box h3 i{
+.footer .box-container .box h3 i {
     color: var(--orange);
 }
 
-.footer .box-container .box .links{
+.footer .box-container .box .links {
     display: block;
     font-size: 1.5rem;
     color: var(--lighting-color);
     padding: 1rem 0;
 }
 
-.footer .box-container .box .links i{
+.footer .box-container .box .links i {
     padding-right: 2rem;
 }
 
-.footer .box-container .box .links:hover i{
+.footer .box-container .box .links:hover i {
     color: var(--orange);
-    padding-right: .5rem;   
+    padding-right: .5rem;
 }
 
-.footer .box-container .box p{
+.footer .box-container .box p {
     line-height: 1.8;
     font-size: 1.5rem;
     color: var(--lighting-color);
     padding: 1rem 0;
 }
 
-.footer .box-container .box2{
+.footer .box-container .box2 {
     margin: -6rem;
 }
 
-.footer .box-container .box2 a{
+.footer .box-container .box2 a {
     font-size: 1.5rem;
     margin-bottom: 15rem;
     padding-bottom: -15rem;
@@ -600,7 +600,7 @@ section {
     margin-left: 3rem;
 }
 
-.footer .box-container .box2 a{
+.footer .box-container .box2 a {
     font-size: 5rem;
     margin-bottom: 15rem;
     padding-bottom: -15rem;
@@ -687,50 +687,53 @@ section {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-  }
-  
-  html {
+}
+
+html {
     box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
-  
-  .column {
+}
+
+.column {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
-  }
-  
-  .card {
+}
+
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
-  }
-  
-  .about-section {
+}
+
+.about-section {
     padding: 50px;
     text-align: center;
     background-color: #474e5d;
     color: white;
-  }
-  
-  .container {
+}
+
+.container {
     padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
+}
+
+.container::after,
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  .title {
+}
+
+.title {
     color: grey;
-  }
-  
-  .button {
+}
+
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -740,18 +743,17 @@ body {
     text-align: center;
     cursor: pointer;
     width: 100%;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: #555;
-  }
-  
-  @media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 650px) {
     .column {
-      width: 100%;
-      display: block;
+        width: 100%;
+        display: block;
     }
-  }
-  </style>
-  </head>
-  <body>
+}
+
+</style></head><body>
